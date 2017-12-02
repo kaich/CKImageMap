@@ -1,0 +1,27 @@
+{
+  "name": "ImageMapView",
+  "version": "0.1.0",
+  "summary": "A short description of ImageMapView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/kai/ImageMapView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "kai": "chengkai1853@163.com"
+  },
+  "source": {
+    "git": "https://github.com/kai/ImageMapView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ImageMapView/Classes/**/*",
+  "dependencies": {
+    "AMPopTip": [
+
+    ]
+  }
+}

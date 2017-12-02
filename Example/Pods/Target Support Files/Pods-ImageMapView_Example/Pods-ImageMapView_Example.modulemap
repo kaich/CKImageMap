@@ -1,0 +1,6 @@
+framework module Pods_ImageMapView_Example {
+  umbrella header "Pods-ImageMapView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

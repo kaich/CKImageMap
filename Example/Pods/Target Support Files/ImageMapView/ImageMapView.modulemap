@@ -1,0 +1,6 @@
+framework module ImageMapView {
+  umbrella header "ImageMapView-umbrella.h"
+
+  export *
+  module * { export * }
+}

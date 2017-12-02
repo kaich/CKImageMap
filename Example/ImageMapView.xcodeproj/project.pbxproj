@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D58B17B1FD14C00008CC569 /* timg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4D58B17A1FD14C00008CC569 /* timg.jpeg */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,7 +30,8 @@
 
 /* Begin PBXFileReference section */
 		1FFA158534616160EF52B466 /* Pods_ImageMapView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageMapView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2915BF7E7517C317B80A7B3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2915BF7E7517C317B80A7B3D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		4D58B17A1FD14C00008CC569 /* timg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = timg.jpeg; sourceTree = "<group>"; };
 		4FA28299E81EF545EAE251D7 /* Pods-ImageMapView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageMapView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageMapView_Tests/Pods-ImageMapView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* ImageMapView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageMapView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,9 +45,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		735B833E68E948AF2BF8986D /* Pods-ImageMapView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageMapView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageMapView_Example/Pods-ImageMapView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9AEAC362BBD00B78EC8A5783 /* Pods_ImageMapView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageMapView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC9FEF189C431F0FD9B99214 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC9FEF189C431F0FD9B99214 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C65DFBD27661FE1ED4FFA776 /* Pods-ImageMapView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageMapView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ImageMapView_Example/Pods-ImageMapView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		DB77DA5B60FA83383FF0AA9D /* ImageMapView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ImageMapView.podspec; path = ../ImageMapView.podspec; sourceTree = "<group>"; };
+		DB77DA5B60FA83383FF0AA9D /* ImageMapView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ImageMapView.podspec; path = ../ImageMapView.podspec; sourceTree = "<group>"; };
 		E1F8AF90344FDE992DC72E11 /* Pods-ImageMapView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageMapView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ImageMapView_Tests/Pods-ImageMapView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 		607FACD21AFB9204008FA782 /* Example for ImageMapView */ = {
 			isa = PBXGroup;
 			children = (
+				4D58B17A1FD14C00008CC569 /* timg.jpeg */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -215,10 +218,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 62SPJCND2J;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = 62SPJCND2J;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -250,6 +255,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				4D58B17B1FD14C00008CC569 /* timg.jpeg in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,10 +295,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ImageMapView_Example/Pods-ImageMapView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AMPopTip/AMPopTip.framework",
 				"${BUILT_PRODUCTS_DIR}/ImageMapView/ImageMapView.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AMPopTip.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageMapView.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -517,6 +525,7 @@
 			baseConfigurationReference = 735B833E68E948AF2BF8986D /* Pods-ImageMapView_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62SPJCND2J;
 				INFOPLIST_FILE = ImageMapView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -532,6 +541,7 @@
 			baseConfigurationReference = C65DFBD27661FE1ED4FFA776 /* Pods-ImageMapView_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 62SPJCND2J;
 				INFOPLIST_FILE = ImageMapView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -546,6 +556,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E1F8AF90344FDE992DC72E11 /* Pods-ImageMapView_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 62SPJCND2J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -567,6 +578,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4FA28299E81EF545EAE251D7 /* Pods-ImageMapView_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = 62SPJCND2J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

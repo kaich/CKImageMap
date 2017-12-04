@@ -29,7 +29,7 @@ class CKMapPopView: UIView {
         
         lblMessage.frame = CGRect(x: 0, y: 21, width: 150, height: 20)
         lblMessage.font = UIFont.systemFont(ofSize: 12)
-        lblMessage.text = marker.message
+        lblMessage.text = "\(marker.point.x):\(marker.point.y)"
         addSubview(lblMessage)
         
     }

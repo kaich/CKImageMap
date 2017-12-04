@@ -1,6 +1,7 @@
 use_frameworks!
 
 target 'ImageMapView_Example' do
+  pod 'AMPopTip', :git => 'https://github.com/kaich/AMPopTip.git'
   pod 'ImageMapView', :path => '../'
 
   target 'ImageMapView_Tests' do

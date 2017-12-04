@@ -225,7 +225,12 @@ open class PopTip: UIView {
     frame.size = CGSize(width: textBounds.width + padding * 2 + edgeInsets.horizontal, height: textBounds.height + padding * 2 + edgeInsets.vertical + arrowSize.height)
     var x = from.origin.x + from.width / 2 - frame.width / 2
     if x < 0 { x = edgeMargin }
-    if (x + frame.width > containerView.bounds.width) { x = containerView.bounds.width - frame.width - edgeMargin }
+    if let scrollContainerView = containerView as? UIScrollView {
+        if (x + frame.width > scrollContainerView.contentSize.width) { x = scrollContainerView.contentSize.width - frame.width - edgeMargin }
+    }
+    else {
+        if (x + frame.width > containerView.bounds.width) { x = containerView.bounds.width - frame.width - edgeMargin }
+    }
     
     if direction == .down {
       frame.origin = CGPoint(x: x, y: from.origin.y + from.height + offset)
@@ -249,7 +254,11 @@ open class PopTip: UIView {
     
     // Make sure that the bubble doesn't leaves the boundaries of the view
     let leftSpace = frame.origin.x - containerView.frame.origin.x
-    let rightSpace = containerView.frame.width - leftSpace - frame.width
+    var rightSpace = containerView.frame.width - leftSpace - frame.width
+    
+    if let scrollContainerView = containerView as? UIScrollView {
+        rightSpace = scrollContainerView.contentSize.width - leftSpace - frame.width
+    }
     
     if bubbleOffset < 0 && leftSpace < fabs(bubbleOffset) {
       bubbleOffset = -leftSpace + edgeMargin
@@ -277,7 +286,12 @@ open class PopTip: UIView {
     var y = from.origin.y + from.height / 2 - frame.height / 2
     
     if y < 0 { y = edgeMargin }
-    if y + frame.height > containerView.bounds.height { y = containerView.bounds.height - frame.height - edgeMargin }
+    if let scrollContainerView = containerView as? UIScrollView {
+        if x + frame.height > scrollContainerView.contentSize.width { y = scrollContainerView.contentSize.height - frame.height - edgeMargin }
+    }
+    else {
+        if y + frame.height > containerView.bounds.height { y = containerView.bounds.height - frame.height - edgeMargin }
+    }
     frame.origin = CGPoint(x: x, y: y)
     
     // Make sure that the bubble doesn't leave the boundaries of the view
@@ -293,7 +307,11 @@ open class PopTip: UIView {
     }
     
     let topSpace = frame.origin.y - containerView.frame.origin.y
-    let bottomSpace = containerView.frame.height - topSpace - frame.height
+    var bottomSpace = containerView.frame.height - topSpace - frame.height
+    
+    if let scrollContainerView = containerView as? UIScrollView {
+        bottomSpace = scrollContainerView.contentSize.height - topSpace - frame.height
+    }
     
     if bubbleOffset < 0 && topSpace < fabs(bubbleOffset) {
       bubbleOffset = -topSpace + edgeMargin
@@ -303,6 +321,7 @@ open class PopTip: UIView {
     
     frame.origin.y += bubbleOffset
     frame.size = CGSize(width: frame.width + borderWidth * 2, height: frame.height + borderWidth * 2)
+
     
     return (frame, arrowPosition)
   }

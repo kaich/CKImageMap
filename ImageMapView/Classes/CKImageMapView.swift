@@ -94,7 +94,9 @@ public class CKImageMapView: UIView {
             annotationView.clickBlock = { annotationView in
                 self.showPopView(annotationView: annotationView)
             }
-            ivMap.addSubview(annotationView)
+            let finalPoint = ivMap.convert(marker.point, to: scrollView)
+            annotationView.finalCenterPoint = finalPoint
+            scrollView.addSubview(annotationView)
             annotationViews.append(annotationView)
             
         }
@@ -102,8 +104,7 @@ public class CKImageMapView: UIView {
     
     func showPopView(annotationView: CKMapAnotationView) {
         let infoView = CKMapPopView(marker: annotationView.marker!)
-        let annoFrame = ivMap.convert(annotationView.frame, to: scrollView)
-        popTip.show(customView: infoView, direction: .up, in: scrollView, from: annoFrame)
+        popTip.show(customView: infoView, direction: .up, in: scrollView, from: annotationView.frame)
     }
     
     @objc func userDoubleTappedScrollview(recognizer:  UITapGestureRecognizer) {
@@ -135,6 +136,7 @@ public class CKImageMapView: UIView {
         let finalFrame = CGRect(x: from.origin.x * scale, y: from.origin.y * scale, width: from.width, height: from.height)
         return finalFrame
     }
+
     
 }
 
@@ -154,7 +156,13 @@ extension CKImageMapView :  UIScrollViewDelegate {
         
         for annoView in annotationViews {
             let finalPoint = ivMap.convert((annoView.marker?.point)!, to: scrollView)
-            annoView.center = finalPoint
+            if(popTip.from == annoView.frame) {
+                annoView.finalCenterPoint = finalPoint
+                popTip.from = annoView.frame
+            }
+            else {
+                annoView.finalCenterPoint = finalPoint
+            }
         }
     }
     

@@ -27,6 +27,13 @@ public class CKMapMarker: NSObject {
 class CKMapAnotationView: UIView {
     var clickBlock: ((CKMapAnotationView) -> ())?
     var marker: CKMapMarker?
+    var finalCenterPoint: CGPoint? {
+        didSet {
+            if let finaCenter = self.finalCenterPoint {
+                self.center = CGPoint(x: finaCenter.x, y: finaCenter.y - self.frame.height / 2.0)
+            }
+        }
+    }
     
     private let btnAnnotation = UIButton(type: UIButtonType.custom)
     

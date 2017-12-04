@@ -4,16 +4,24 @@ PODS:
     - AMPopTip
 
 DEPENDENCIES:
+  - AMPopTip (from `https://github.com/kaich/AMPopTip.git`)
   - ImageMapView (from `../`)
 
 EXTERNAL SOURCES:
+  AMPopTip:
+    :git: https://github.com/kaich/AMPopTip.git
   ImageMapView:
     :path: ../
 
+CHECKOUT OPTIONS:
+  AMPopTip:
+    :commit: fa553167645bdbe821c398755f4fc8d69f890c95
+    :git: https://github.com/kaich/AMPopTip.git
+
 SPEC CHECKSUMS:
-  AMPopTip: fcd04d6a6304d544173c4950645fe7e5b3e244cb
+  AMPopTip: 0dd5044323464e267dddb3c91d25468f7a91f3f7
   ImageMapView: 2a9e95195a77f9a1eb8490b1615c6c03e28b4f29
 
-PODFILE CHECKSUM: 38b20cedc5b7e87eaf5bf3cee1791246ed0d0ba9
+PODFILE CHECKSUM: f7a55c20339b57100fcb39d4b425717bf1464a24
 
 COCOAPODS: 1.3.1

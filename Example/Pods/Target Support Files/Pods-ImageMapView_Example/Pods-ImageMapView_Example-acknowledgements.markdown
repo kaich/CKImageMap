@@ -26,7 +26,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 
-## ImageMapView
+## CKImageMap
 
 Copyright (c) 2017 kai <chengkai1853@163.com>
 

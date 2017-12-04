@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double ImageMapViewVersionNumber;
-FOUNDATION_EXPORT const unsigned char ImageMapViewVersionString[];
+FOUNDATION_EXPORT double CKImageMapVersionNumber;
+FOUNDATION_EXPORT const unsigned char CKImageMapVersionString[];
 

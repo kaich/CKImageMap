@@ -8,43 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		03C0AEFEBE89F73FA827E7C416047D2C /* PopTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = E981E51403F7601F9990AE2456FC50DA /* PopTip.swift */; };
-		0432F08CE702CCAF6F2F2F07D8C95D62 /* CKMapMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA11317F2A36342AE0C3C8ABC9E02F0 /* CKMapMarker.swift */; };
+		0FBEC64BC32EEF544FFB05BCFD50F4DA /* Pods-ImageMapView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E66F37CA97A0B2619510E4E47A32E7 /* Pods-ImageMapView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		127E5015D838330AAD52E6DEA61526A5 /* PopTip+Draw.swift in Sources */ = {isa = PBXBuildFile; fileRef = E016EAFF848386F70C360D396FEA4B82 /* PopTip+Draw.swift */; };
-		306D06902C9395037664BC901C57272E /* ImageMapView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F46BCB8EDB5CFFBA2D3549D899F625 /* ImageMapView-dummy.m */; };
+		13ECF4593D837627EBE6C8A0C4DB94F6 /* CKImageMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C80932DD54C267459AF99CEEDDC021 /* CKImageMapView.swift */; };
+		251AC1F6294DC0C0933CFFF9BF678C96 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A439EB79EA8CE8C061DFE6024FC939 /* Foundation.framework */; };
+		3B7D53C19C234AEF46B568CBE033AA08 /* CKImageMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5BEB6981CF9D7F2D28EE12C8110B131 /* CKImageMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43A27513C0302163E0DB75246EE4B1CA /* PopTip+Transitions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA3D17AB74A685EAE35EE6C1CA3C54E /* PopTip+Transitions.swift */; };
+		5F643820EC662E67B3DC60C552341F7D /* CKMapMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0930EF93F4DFE6BFA4EB7E02199397F4 /* CKMapMarker.swift */; };
 		645FEA9A9F281C87D27DBCAFCE1EB842 /* AMPopTip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D133FB3C4C37AF18BC33E3647556598 /* AMPopTip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C83DFB53119AA7D47F26735C798BA41 /* AMPopTip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B419B6E11EC6ED426E2230865DBEC1 /* AMPopTip.framework */; };
 		715B26ACDB6E145967ADB1CE396FCF5B /* Pods-ImageMapView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AA4EB01CBD63FF1C244975B94C53A3E /* Pods-ImageMapView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7632817287731B17F66650593D22129A /* Pods-ImageMapView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7E3C8648672EAC76DF8717170A3CA8 /* Pods-ImageMapView_Tests-dummy.m */; };
-		8CEB5E4DFAB98278F08EDDD1FBE95D5D /* Pods-ImageMapView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE93E110476136580C6F049B45A0AFD /* Pods-ImageMapView_Example-dummy.m */; };
-		B1A0C598096E9846B2CE03375B98C009 /* CKMapPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8349AB38D199F73D4F562616DA9FB91 /* CKMapPopView.swift */; };
+		7B9C005DD2220D65866F48EC44F47852 /* CKImageMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D79206C50463538A181AED1255AA3EBC /* CKImageMap-dummy.m */; };
+		85248D2F6F93019F63074417D8AD8EA5 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7CC86C9498777042651E5CACB3D73B4 /* UIColorExtension.swift */; };
+		8AC6081DAAFBFE00CC4F7E33B42DDB87 /* CKMapPopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 392E429B8CE232DF574D119C52157C0E /* CKMapPopView.swift */; };
 		BA0C7E7B2289423FC6EAA0D61B6C10FF /* AMPopTip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C56987F546F976589AC1534EBF4055A /* AMPopTip-dummy.m */; };
-		BBC5D43478CCE7004B6850E2928B0E00 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872C8178FAEF2AEABA4614E21ADCC594 /* UIColorExtension.swift */; };
-		BBD250D335827B7648ED45E3DBFAD54D /* ImageMapView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 782DC7A2574E95B5C4A4CF43F14AFACB /* ImageMapView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C47483E53D51B0CD8681BF775DC4EA18 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A439EB79EA8CE8C061DFE6024FC939 /* Foundation.framework */; };
-		D1F79FADDAC05491E819943D306D548A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A439EB79EA8CE8C061DFE6024FC939 /* Foundation.framework */; };
-		E808031DEEB2AC9CEA24A1C42A68DF3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A439EB79EA8CE8C061DFE6024FC939 /* Foundation.framework */; };
+		D815FDBE1E6BE86FF6918F35BD1B3993 /* Pods-ImageMapView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DE93E110476136580C6F049B45A0AFD /* Pods-ImageMapView_Example-dummy.m */; };
+		DE2CFCD67CDE87A3559AC2ABEEA97307 /* AMPopTip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0B419B6E11EC6ED426E2230865DBEC1 /* AMPopTip.framework */; };
+		DF06C8444FD44B1E83181337622E36EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A439EB79EA8CE8C061DFE6024FC939 /* Foundation.framework */; };
 		E9FBAF6D223676A47B8877D044820604 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4A439EB79EA8CE8C061DFE6024FC939 /* Foundation.framework */; };
-		F5AA4F2439907F2D47D4E0AA311F4294 /* CKImageMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4D7610FFEA4CFC5E8FE4839D39B50A /* CKImageMapView.swift */; };
-		F92DE9E617815A8B3345817DC112F9BA /* Pods-ImageMapView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 43E66F37CA97A0B2619510E4E47A32E7 /* Pods-ImageMapView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		335CD6EADBEB17BB79EEF4C363839A5C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 18A4178D1BB5A8F4AE99CFCFAECDE968;
-			remoteInfo = ImageMapView;
-		};
-		58B2F072F5AFCD80109D845158A72F33 /* PBXContainerItemProxy */ = {
+		93ECF923EDB8DDB786128B4D8EF2C159 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A406E78BB0A2D11548A4B5AB13C56142;
 			remoteInfo = AMPopTip;
 		};
-		91BB28BC75203C6190DD7F1CB49B4126 /* PBXContainerItemProxy */ = {
+		D119EBB169C38B222FEE061770F1F307 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6094045CB26951A3CE1E5AEF5CB8CEA1;
+			remoteInfo = CKImageMap;
+		};
+		D4FC5D6A7FCBF50A13720A7EFDDCDCF0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -54,43 +54,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0161F944580FD009F4E25BB454288AC0 /* ImageMapView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ImageMapView.modulemap; sourceTree = "<group>"; };
+		0930EF93F4DFE6BFA4EB7E02199397F4 /* CKMapMarker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CKMapMarker.swift; path = CKImageMap/Classes/CKMapMarker.swift; sourceTree = "<group>"; };
 		1526DCDAD73455AF6760035ADA30E344 /* AMPopTip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopTip-prefix.pch"; sourceTree = "<group>"; };
+		15A3F20BE089DB8EAC9455356E0B3F0C /* CKImageMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CKImageMap.framework; path = CKImageMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		18A36C7FCA56406498E035520F11CC02 /* Pods-ImageMapView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageMapView_Example-resources.sh"; sourceTree = "<group>"; };
 		1C2C5C0E63F8C82E42196BF9C0DE1CA6 /* Pods-ImageMapView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageMapView_Example.modulemap"; sourceTree = "<group>"; };
-		1D3641AAD5F360E35E0F83FAA5F6356F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		382A326171FC623A619EE74B479A1307 /* ImageMapView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageMapView-prefix.pch"; sourceTree = "<group>"; };
-		39F46BCB8EDB5CFFBA2D3549D899F625 /* ImageMapView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ImageMapView-dummy.m"; sourceTree = "<group>"; };
-		3E73DF597491FC39F19954DBEC2325B0 /* Pods_ImageMapView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMapView_Tests.framework; path = "Pods-ImageMapView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22C80932DD54C267459AF99CEEDDC021 /* CKImageMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CKImageMapView.swift; path = CKImageMap/Classes/CKImageMapView.swift; sourceTree = "<group>"; };
+		38C244A546DD8D563F8FCB8CA40D4036 /* CKImageMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CKImageMap.modulemap; sourceTree = "<group>"; };
+		392E429B8CE232DF574D119C52157C0E /* CKMapPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CKMapPopView.swift; path = CKImageMap/Classes/CKMapPopView.swift; sourceTree = "<group>"; };
+		3B24F10A87D4D0C3B7ADB9BB4DA23FF2 /* Pods_ImageMapView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMapView_Tests.framework; path = "Pods-ImageMapView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E981ECB93C8258CA4E1015EC5FBD006 /* Pods-ImageMapView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageMapView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		42B78F4410021260AB2819642E75CFE6 /* CKImageMap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CKImageMap.xcconfig; sourceTree = "<group>"; };
 		43E66F37CA97A0B2619510E4E47A32E7 /* Pods-ImageMapView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageMapView_Example-umbrella.h"; sourceTree = "<group>"; };
 		5CA3D17AB74A685EAE35EE6C1CA3C54E /* PopTip+Transitions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopTip+Transitions.swift"; path = "Source/PopTip+Transitions.swift"; sourceTree = "<group>"; };
 		6AA4EB01CBD63FF1C244975B94C53A3E /* Pods-ImageMapView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ImageMapView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		6EAA447D218C4C6749EFF3A402A2C376 /* Pods_ImageMapView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMapView_Example.framework; path = "Pods-ImageMapView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F45E870D5214EA6BD9DAF49EB495F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		782DC7A2574E95B5C4A4CF43F14AFACB /* ImageMapView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ImageMapView-umbrella.h"; sourceTree = "<group>"; };
 		7A908CC8974DB3E8E5C1FAB61A2DED63 /* Pods-ImageMapView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMapView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7D133FB3C4C37AF18BC33E3647556598 /* AMPopTip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMPopTip-umbrella.h"; sourceTree = "<group>"; };
-		7EA11317F2A36342AE0C3C8ABC9E02F0 /* CKMapMarker.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CKMapMarker.swift; path = ImageMapView/Classes/CKMapMarker.swift; sourceTree = "<group>"; };
 		861DF6C86702FC3CC6B38DF11103CCD4 /* AMPopTip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = AMPopTip.modulemap; sourceTree = "<group>"; };
 		862005D84444931A8E363D10F4708733 /* Pods-ImageMapView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMapView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		86CAD9050568A6996D3D43221CB3B699 /* ImageMapView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ImageMapView.framework; path = ImageMapView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		872C8178FAEF2AEABA4614E21ADCC594 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = ImageMapView/Classes/UIColorExtension.swift; sourceTree = "<group>"; };
 		895A5D0D89C7C8DBC8824B8604974135 /* Pods-ImageMapView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMapView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		89E553D8B4784FA9CD9BA1B5F7D5C538 /* Pods-ImageMapView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageMapView_Tests-resources.sh"; sourceTree = "<group>"; };
 		8C29CC0C5E94A94FF80A8743F1E9DFFB /* Pods-ImageMapView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageMapView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8C56987F546F976589AC1534EBF4055A /* AMPopTip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMPopTip-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96E994D25E812EACC67F53A5484FC5BA /* Pods_ImageMapView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ImageMapView_Example.framework; path = "Pods-ImageMapView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D272D06BCCF5290DB4D8AA252B575C1 /* AMPopTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMPopTip.framework; path = AMPopTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE93E110476136580C6F049B45A0AFD /* Pods-ImageMapView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageMapView_Example-dummy.m"; sourceTree = "<group>"; };
 		A240BA63E8EFA76DE0DD78278D37DC3E /* Pods-ImageMapView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ImageMapView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		AF4D7610FFEA4CFC5E8FE4839D39B50A /* CKImageMapView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CKImageMapView.swift; path = ImageMapView/Classes/CKImageMapView.swift; sourceTree = "<group>"; };
-		B2FC15DA4DE4D5097CB16097ECA66925 /* ImageMapView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ImageMapView.xcconfig; sourceTree = "<group>"; };
-		B8349AB38D199F73D4F562616DA9FB91 /* CKMapPopView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CKMapPopView.swift; path = ImageMapView/Classes/CKMapPopView.swift; sourceTree = "<group>"; };
+		AF897CF1A36F786E9E8E50AF31641423 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAA56FEB38473A82A4DDAF6F0314CA19 /* Pods-ImageMapView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ImageMapView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BC7E3C8648672EAC76DF8717170A3CA8 /* Pods-ImageMapView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ImageMapView_Tests-dummy.m"; sourceTree = "<group>"; };
-		BDCEBB6110B9560F926C9FE21E0C85FC /* AMPopTip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMPopTip.framework; path = AMPopTip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF56D513B930285E49607FDD371FE50A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5BEB6981CF9D7F2D28EE12C8110B131 /* CKImageMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKImageMap-umbrella.h"; sourceTree = "<group>"; };
 		D3B30A0E92888711071F63BC1F0EA95B /* Pods-ImageMapView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ImageMapView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D4773942071DFFE2B53B1AD7D0269C9C /* CKImageMap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CKImageMap-prefix.pch"; sourceTree = "<group>"; };
+		D79206C50463538A181AED1255AA3EBC /* CKImageMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CKImageMap-dummy.m"; sourceTree = "<group>"; };
+		D7CC86C9498777042651E5CACB3D73B4 /* UIColorExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIColorExtension.swift; path = CKImageMap/Classes/UIColorExtension.swift; sourceTree = "<group>"; };
 		DB004391F28BE6CD4BF8D497942D8EAB /* AMPopTip.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMPopTip.xcconfig; sourceTree = "<group>"; };
 		DF4B0EC1EBC1FA5BC8AD84E1281F14A6 /* Pods-ImageMapView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ImageMapView_Tests.modulemap"; sourceTree = "<group>"; };
 		E016EAFF848386F70C360D396FEA4B82 /* PopTip+Draw.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PopTip+Draw.swift"; path = "Source/PopTip+Draw.swift"; sourceTree = "<group>"; };
@@ -119,20 +119,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		682BA81D89829158BFAE00FD342EEA3A /* Frameworks */ = {
+		487AAABF0DE5AB6BCE4B0F143B18A907 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E808031DEEB2AC9CEA24A1C42A68DF3E /* Foundation.framework in Frameworks */,
+				251AC1F6294DC0C0933CFFF9BF678C96 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D9564F59F6F213EB11C75891F5FE6003 /* Frameworks */ = {
+		E6DA4ECC7D811EA7E3EAAB12F3A7412D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C83DFB53119AA7D47F26735C798BA41 /* AMPopTip.framework in Frameworks */,
-				D1F79FADDAC05491E819943D306D548A /* Foundation.framework in Frameworks */,
+				DE2CFCD67CDE87A3559AC2ABEEA97307 /* AMPopTip.framework in Frameworks */,
+				DF06C8444FD44B1E83181337622E36EB /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +157,33 @@
 			path = "Target Support Files/Pods-ImageMapView_Example";
 			sourceTree = "<group>";
 		};
+		4648CBC121186C0ADF7BD9928ECBE31D /* CKImageMap */ = {
+			isa = PBXGroup;
+			children = (
+				22C80932DD54C267459AF99CEEDDC021 /* CKImageMapView.swift */,
+				0930EF93F4DFE6BFA4EB7E02199397F4 /* CKMapMarker.swift */,
+				392E429B8CE232DF574D119C52157C0E /* CKMapPopView.swift */,
+				D7CC86C9498777042651E5CACB3D73B4 /* UIColorExtension.swift */,
+				46CBF2FED5E58A49A46ECE6F13441D12 /* Support Files */,
+			);
+			name = CKImageMap;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		46CBF2FED5E58A49A46ECE6F13441D12 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38C244A546DD8D563F8FCB8CA40D4036 /* CKImageMap.modulemap */,
+				42B78F4410021260AB2819642E75CFE6 /* CKImageMap.xcconfig */,
+				D79206C50463538A181AED1255AA3EBC /* CKImageMap-dummy.m */,
+				D4773942071DFFE2B53B1AD7D0269C9C /* CKImageMap-prefix.pch */,
+				C5BEB6981CF9D7F2D28EE12C8110B131 /* CKImageMap-umbrella.h */,
+				AF897CF1A36F786E9E8E50AF31641423 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CKImageMap";
+			sourceTree = "<group>";
+		};
 		5BFEC6617AF63648B3C84FF091C0519C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,10 +206,10 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				BA1749099B447EAFD181AA359A512818 /* Development Pods */,
+				F4E58ED473232E92229EDA9C201819A6 /* Development Pods */,
 				5BFEC6617AF63648B3C84FF091C0519C /* Frameworks */,
 				86C18A0E92F7D9E9C8C628AB82F4D8BF /* Pods */,
-				9D3D6A5E1C189C0F89E0C3370AB28825 /* Products */,
+				95AB6652F1D508A7EFF1C5FC8B8C9D39 /* Products */,
 				6C0F83DD321074F441203E3BED536C9F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -213,26 +240,13 @@
 			path = "Target Support Files/Pods-ImageMapView_Tests";
 			sourceTree = "<group>";
 		};
-		963EB7E07C01280A92ECA30612ACF137 /* ImageMapView */ = {
+		95AB6652F1D508A7EFF1C5FC8B8C9D39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF4D7610FFEA4CFC5E8FE4839D39B50A /* CKImageMapView.swift */,
-				7EA11317F2A36342AE0C3C8ABC9E02F0 /* CKMapMarker.swift */,
-				B8349AB38D199F73D4F562616DA9FB91 /* CKMapPopView.swift */,
-				872C8178FAEF2AEABA4614E21ADCC594 /* UIColorExtension.swift */,
-				AB247CB90EAC51622E8C4DAE9FD23074 /* Support Files */,
-			);
-			name = ImageMapView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		9D3D6A5E1C189C0F89E0C3370AB28825 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BDCEBB6110B9560F926C9FE21E0C85FC /* AMPopTip.framework */,
-				86CAD9050568A6996D3D43221CB3B699 /* ImageMapView.framework */,
-				6EAA447D218C4C6749EFF3A402A2C376 /* Pods_ImageMapView_Example.framework */,
-				3E73DF597491FC39F19954DBEC2325B0 /* Pods_ImageMapView_Tests.framework */,
+				9D272D06BCCF5290DB4D8AA252B575C1 /* AMPopTip.framework */,
+				15A3F20BE089DB8EAC9455356E0B3F0C /* CKImageMap.framework */,
+				96E994D25E812EACC67F53A5484FC5BA /* Pods_ImageMapView_Example.framework */,
+				3B24F10A87D4D0C3B7ADB9BB4DA23FF2 /* Pods_ImageMapView_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -251,24 +265,10 @@
 			path = "../Target Support Files/AMPopTip";
 			sourceTree = "<group>";
 		};
-		AB247CB90EAC51622E8C4DAE9FD23074 /* Support Files */ = {
+		F4E58ED473232E92229EDA9C201819A6 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0161F944580FD009F4E25BB454288AC0 /* ImageMapView.modulemap */,
-				B2FC15DA4DE4D5097CB16097ECA66925 /* ImageMapView.xcconfig */,
-				39F46BCB8EDB5CFFBA2D3549D899F625 /* ImageMapView-dummy.m */,
-				382A326171FC623A619EE74B479A1307 /* ImageMapView-prefix.pch */,
-				782DC7A2574E95B5C4A4CF43F14AFACB /* ImageMapView-umbrella.h */,
-				1D3641AAD5F360E35E0F83FAA5F6356F /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ImageMapView";
-			sourceTree = "<group>";
-		};
-		BA1749099B447EAFD181AA359A512818 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				963EB7E07C01280A92ECA30612ACF137 /* ImageMapView */,
+				4648CBC121186C0ADF7BD9928ECBE31D /* CKImageMap */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -304,11 +304,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		141623B69094C04312B78232C54077E2 /* Headers */ = {
+		4314DD655244EC6E8A992583ACC44806 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F92DE9E617815A8B3345817DC112F9BA /* Pods-ImageMapView_Example-umbrella.h in Headers */,
+				0FBEC64BC32EEF544FFB05BCFD50F4DA /* Pods-ImageMapView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56C9118CC41F9092CB96578A0D1E9826 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7D53C19C234AEF46B568CBE033AA08 /* CKImageMap-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,33 +328,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB9ABE544DFF31CDD8ACC2C93604728B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BBD250D335827B7648ED45E3DBFAD54D /* ImageMapView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		18A4178D1BB5A8F4AE99CFCFAECDE968 /* ImageMapView */ = {
+		6094045CB26951A3CE1E5AEF5CB8CEA1 /* CKImageMap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3D0758D022456A0E5762067D5464BD57 /* Build configuration list for PBXNativeTarget "ImageMapView" */;
+			buildConfigurationList = 2115F63CB46B2B054AC920AD8470CF6E /* Build configuration list for PBXNativeTarget "CKImageMap" */;
 			buildPhases = (
-				DB250A80BC1BFBAFA082E8C8B9BA87B6 /* Sources */,
-				D9564F59F6F213EB11C75891F5FE6003 /* Frameworks */,
-				CB9ABE544DFF31CDD8ACC2C93604728B /* Headers */,
+				0A305A3A5B0999E210CBEA38E3EB4E44 /* Sources */,
+				E6DA4ECC7D811EA7E3EAAB12F3A7412D /* Frameworks */,
+				56C9118CC41F9092CB96578A0D1E9826 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				192B1E433F497EDB4F7474E36CA86964 /* PBXTargetDependency */,
+				DF2A4ED3104CD1A57D7F2A6E6A64EE8D /* PBXTargetDependency */,
 			);
-			name = ImageMapView;
-			productName = ImageMapView;
-			productReference = 86CAD9050568A6996D3D43221CB3B699 /* ImageMapView.framework */;
+			name = CKImageMap;
+			productName = CKImageMap;
+			productReference = 15A3F20BE089DB8EAC9455356E0B3F0C /* CKImageMap.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		64F0D5E9D538A7884E8B746196BFB434 /* Pods-ImageMapView_Tests */ = {
@@ -363,7 +363,7 @@
 			);
 			name = "Pods-ImageMapView_Tests";
 			productName = "Pods-ImageMapView_Tests";
-			productReference = 3E73DF597491FC39F19954DBEC2325B0 /* Pods_ImageMapView_Tests.framework */;
+			productReference = 3B24F10A87D4D0C3B7ADB9BB4DA23FF2 /* Pods_ImageMapView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A406E78BB0A2D11548A4B5AB13C56142 /* AMPopTip */ = {
@@ -380,26 +380,26 @@
 			);
 			name = AMPopTip;
 			productName = AMPopTip;
-			productReference = BDCEBB6110B9560F926C9FE21E0C85FC /* AMPopTip.framework */;
+			productReference = 9D272D06BCCF5290DB4D8AA252B575C1 /* AMPopTip.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D85731B35A727D0DE9D23574899A58C1 /* Pods-ImageMapView_Example */ = {
+		FE877FE1D206F33BAC22C144D1025508 /* Pods-ImageMapView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C9B560774DC232016AABE1DD98B7663D /* Build configuration list for PBXNativeTarget "Pods-ImageMapView_Example" */;
+			buildConfigurationList = DB957B6254610AAD02221EF47AE7404D /* Build configuration list for PBXNativeTarget "Pods-ImageMapView_Example" */;
 			buildPhases = (
-				27D744D98606AD4E0070F553466E799F /* Sources */,
-				682BA81D89829158BFAE00FD342EEA3A /* Frameworks */,
-				141623B69094C04312B78232C54077E2 /* Headers */,
+				B57D638607F0D00DC4DC63EF7B5C3F3C /* Sources */,
+				487AAABF0DE5AB6BCE4B0F143B18A907 /* Frameworks */,
+				4314DD655244EC6E8A992583ACC44806 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D2AC2735A2CEF6C618BE0253B10F7553 /* PBXTargetDependency */,
-				99935D67B9544E6F9F50D1553349B7DA /* PBXTargetDependency */,
+				8EC392F9DA0522A39F54C88C5D1DC6CF /* PBXTargetDependency */,
+				849F672AF85E3607108546D18C88D10D /* PBXTargetDependency */,
 			);
 			name = "Pods-ImageMapView_Example";
 			productName = "Pods-ImageMapView_Example";
-			productReference = 6EAA447D218C4C6749EFF3A402A2C376 /* Pods_ImageMapView_Example.framework */;
+			productReference = 96E994D25E812EACC67F53A5484FC5BA /* Pods_ImageMapView_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -419,24 +419,36 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9D3D6A5E1C189C0F89E0C3370AB28825 /* Products */;
+			productRefGroup = 95AB6652F1D508A7EFF1C5FC8B8C9D39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				A406E78BB0A2D11548A4B5AB13C56142 /* AMPopTip */,
-				18A4178D1BB5A8F4AE99CFCFAECDE968 /* ImageMapView */,
-				D85731B35A727D0DE9D23574899A58C1 /* Pods-ImageMapView_Example */,
+				6094045CB26951A3CE1E5AEF5CB8CEA1 /* CKImageMap */,
+				FE877FE1D206F33BAC22C144D1025508 /* Pods-ImageMapView_Example */,
 				64F0D5E9D538A7884E8B746196BFB434 /* Pods-ImageMapView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		27D744D98606AD4E0070F553466E799F /* Sources */ = {
+		0A305A3A5B0999E210CBEA38E3EB4E44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CEB5E4DFAB98278F08EDDD1FBE95D5D /* Pods-ImageMapView_Example-dummy.m in Sources */,
+				7B9C005DD2220D65866F48EC44F47852 /* CKImageMap-dummy.m in Sources */,
+				13ECF4593D837627EBE6C8A0C4DB94F6 /* CKImageMapView.swift in Sources */,
+				5F643820EC662E67B3DC60C552341F7D /* CKMapMarker.swift in Sources */,
+				8AC6081DAAFBFE00CC4F7E33B42DDB87 /* CKMapPopView.swift in Sources */,
+				85248D2F6F93019F63074417D8AD8EA5 /* UIColorExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B57D638607F0D00DC4DC63EF7B5C3F3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D815FDBE1E6BE86FF6918F35BD1B3993 /* Pods-ImageMapView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,18 +463,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB250A80BC1BFBAFA082E8C8B9BA87B6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F5AA4F2439907F2D47D4E0AA311F4294 /* CKImageMapView.swift in Sources */,
-				0432F08CE702CCAF6F2F2F07D8C95D62 /* CKMapMarker.swift in Sources */,
-				B1A0C598096E9846B2CE03375B98C009 /* CKMapPopView.swift in Sources */,
-				306D06902C9395037664BC901C57272E /* ImageMapView-dummy.m in Sources */,
-				BBC5D43478CCE7004B6850E2928B0E00 /* UIColorExtension.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FBAD5C71628B7F82CDCD10FE3D01646D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -474,23 +474,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		192B1E433F497EDB4F7474E36CA86964 /* PBXTargetDependency */ = {
+		849F672AF85E3607108546D18C88D10D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CKImageMap;
+			target = 6094045CB26951A3CE1E5AEF5CB8CEA1 /* CKImageMap */;
+			targetProxy = D119EBB169C38B222FEE061770F1F307 /* PBXContainerItemProxy */;
+		};
+		8EC392F9DA0522A39F54C88C5D1DC6CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AMPopTip;
 			target = A406E78BB0A2D11548A4B5AB13C56142 /* AMPopTip */;
-			targetProxy = 91BB28BC75203C6190DD7F1CB49B4126 /* PBXContainerItemProxy */;
+			targetProxy = 93ECF923EDB8DDB786128B4D8EF2C159 /* PBXContainerItemProxy */;
 		};
-		99935D67B9544E6F9F50D1553349B7DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = ImageMapView;
-			target = 18A4178D1BB5A8F4AE99CFCFAECDE968 /* ImageMapView */;
-			targetProxy = 335CD6EADBEB17BB79EEF4C363839A5C /* PBXContainerItemProxy */;
-		};
-		D2AC2735A2CEF6C618BE0253B10F7553 /* PBXTargetDependency */ = {
+		DF2A4ED3104CD1A57D7F2A6E6A64EE8D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AMPopTip;
 			target = A406E78BB0A2D11548A4B5AB13C56142 /* AMPopTip */;
-			targetProxy = 58B2F072F5AFCD80109D845158A72F33 /* PBXContainerItemProxy */;
+			targetProxy = D4FC5D6A7FCBF50A13720A7EFDDCDCF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -619,40 +619,7 @@
 			};
 			name = Release;
 		};
-		48814C2AA338D211F58A630694C9BED2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A240BA63E8EFA76DE0DD78278D37DC3E /* Pods-ImageMapView_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ImageMapView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ImageMapView_Tests/Pods-ImageMapView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ImageMapView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6241DA1CA2A41C3DA74D318CFBBF75D1 /* Release */ = {
+		4562222D7620C0691119EA00001E42BF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 895A5D0D89C7C8DBC8824B8604974135 /* Pods-ImageMapView_Example.release.xcconfig */;
 			buildSettings = {
@@ -686,7 +653,40 @@
 			};
 			name = Release;
 		};
-		69051B4AFB59F7E9DDA24E389576112F /* Debug */ = {
+		48814C2AA338D211F58A630694C9BED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A240BA63E8EFA76DE0DD78278D37DC3E /* Pods-ImageMapView_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ImageMapView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ImageMapView_Tests/Pods-ImageMapView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ImageMapView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66C09ED747F8EDFAA51A3191A4C2A11A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 862005D84444931A8E363D10F4708733 /* Pods-ImageMapView_Example.debug.xcconfig */;
 			buildSettings = {
@@ -775,9 +775,9 @@
 			};
 			name = Release;
 		};
-		C4FED7198F226C6C7CBC31C97599E13D /* Debug */ = {
+		B98A2DD6C4348A139EFF4E971F70EAE6 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2FC15DA4DE4D5097CB16097ECA66925 /* ImageMapView.xcconfig */;
+			baseConfigurationReference = 42B78F4410021260AB2819642E75CFE6 /* CKImageMap.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -788,44 +788,13 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImageMapView/ImageMapView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageMapView/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/CKImageMap/CKImageMap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CKImageMap/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageMapView/ImageMapView.modulemap";
-				PRODUCT_NAME = ImageMapView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		ED1603E9AF262B7CA078227A8AC1A4AD /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2FC15DA4DE4D5097CB16097ECA66925 /* ImageMapView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ImageMapView/ImageMapView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ImageMapView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ImageMapView/ImageMapView.modulemap";
-				PRODUCT_NAME = ImageMapView;
+				MODULEMAP_FILE = "Target Support Files/CKImageMap/CKImageMap.modulemap";
+				PRODUCT_NAME = CKImageMap;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -837,6 +806,37 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		BBBDE5C7279E9B8991CEFEE1190E401C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42B78F4410021260AB2819642E75CFE6 /* CKImageMap.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CKImageMap/CKImageMap-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CKImageMap/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CKImageMap/CKImageMap.modulemap";
+				PRODUCT_NAME = CKImageMap;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		F42A371910AD49F95586044202D7EC01 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -872,6 +872,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2115F63CB46B2B054AC920AD8470CF6E /* Build configuration list for PBXNativeTarget "CKImageMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBBDE5C7279E9B8991CEFEE1190E401C /* Debug */,
+				B98A2DD6C4348A139EFF4E971F70EAE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -890,29 +899,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3D0758D022456A0E5762067D5464BD57 /* Build configuration list for PBXNativeTarget "ImageMapView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C4FED7198F226C6C7CBC31C97599E13D /* Debug */,
-				ED1603E9AF262B7CA078227A8AC1A4AD /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C9B560774DC232016AABE1DD98B7663D /* Build configuration list for PBXNativeTarget "Pods-ImageMapView_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				69051B4AFB59F7E9DDA24E389576112F /* Debug */,
-				6241DA1CA2A41C3DA74D318CFBBF75D1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		D62E8CE9FE4785FA32D59E5B436CA90E /* Build configuration list for PBXNativeTarget "Pods-ImageMapView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				036C02B15E863876D4071E5996260AA6 /* Debug */,
 				48814C2AA338D211F58A630694C9BED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB957B6254610AAD02221EF47AE7404D /* Build configuration list for PBXNativeTarget "Pods-ImageMapView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66C09ED747F8EDFAA51A3191A4C2A11A /* Debug */,
+				4562222D7620C0691119EA00001E42BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

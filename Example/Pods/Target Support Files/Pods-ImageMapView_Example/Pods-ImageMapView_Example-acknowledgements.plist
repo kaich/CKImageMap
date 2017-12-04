@@ -68,7 +68,7 @@ THE SOFTWARE.
 			<key>License</key>
 			<string>MIT</string>
 			<key>Title</key>
-			<string>ImageMapView</string>
+			<string>CKImageMap</string>
 			<key>Type</key>
 			<string>PSGroupSpecifier</string>
 		</dict>

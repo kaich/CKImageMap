@@ -6,16 +6,19 @@
 //
 
 import UIKit
+import Kingfisher
 
 public class CKMapMarker: NSObject {
-    var point: CGPoint = CGPoint(x: 0, y: 0)
-    var title = ""
-    var message = ""
-    var isMarked = false
-    var actionTitles = [String]()
+    public var point: CGPoint = CGPoint(x: 0, y: 0)
+    public var imageURL: URL?
+    public var title = ""
+    public var message = ""
+    public var isMarked = false
+    public var actionTitles = [String]()
     
-    public init(point: CGPoint, title: String = "", message: String = "", isMarked: Bool = false, actionTitles: [String] = []) {
+    public init(point: CGPoint, imageURL: URL? = nil, title: String = "", message: String = "", isMarked: Bool = false, actionTitles: [String] = []) {
         self.point = point
+        self.imageURL = imageURL
         self.title = title
         self.message = message
         self.isMarked = isMarked
@@ -44,7 +47,13 @@ class CKMapAnotationView: UIView {
         let image = UIImage()
         btnAnnotation.frame = CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height)
         btnAnnotation.setImage(image, for: .normal)
-        btnAnnotation.backgroundColor = UIColor.green
+        btnAnnotation.backgroundColor = UIColor.clear
+        if let imageURL = marker.imageURL {
+            btnAnnotation.kf.setImage(with: imageURL, for: .normal)
+        }
+        else {
+            btnAnnotation.setImage(UIImage(named: ""), for: .normal)
+        }
         btnAnnotation.addTarget(self, action: #selector(pressAnnotation), for: .touchUpInside)
         addSubview(btnAnnotation)
         

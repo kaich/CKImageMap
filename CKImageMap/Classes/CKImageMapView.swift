@@ -7,16 +7,28 @@
 
 import UIKit
 import AMPopTip
+import Kingfisher
 
 public class CKImageMapView: UIView {
-    let scrollView = UIScrollView()
-    let ivMap = UIImageView()
+    public var imageURL: URL? {
+        didSet {
+            ivMap.kf.setImage(with: imageURL, placeholder: nil, options: nil, progressBlock: nil) { (image, error, type, url) in
+                self.mapImage = image
+                self.ivMap.frame = CGRect(x: 0, y: 0, width: self.mapSize().width, height: self.mapSize().height)
+                self.scrollView.contentSize = self.mapSize()
+                self.setNeedsLayout()
+            }
+            
+        }
+    }
     public var markers: [CKMapMarker] = [] {
         didSet {
             self.reloadData()
         }
     }
-    
+
+    private let scrollView = UIScrollView()
+    private let ivMap = UIImageView()
     private var mapImage: UIImage?
     private var isInitialScaled = false //处理开始frame大小为0的情况
     private let popTip = PopTip()
@@ -26,15 +38,13 @@ public class CKImageMapView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        mapImage = UIImage(named: "timg.jpeg")
         
         scrollView.delegate = self
-        scrollView.contentSize = mapSize()
         addSubview(scrollView)
 
-        ivMap.image = mapImage
+
         ivMap.isUserInteractionEnabled = true
-        ivMap.frame = CGRect(x: 0, y: 0, width: mapSize().width, height: mapSize().height)
+//        ivMap.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
         scrollView.addSubview(ivMap)
         
         popTip.bubbleColor = UIColor.white
@@ -75,8 +85,8 @@ public class CKImageMapView: UIView {
                 scrollView.maximumZoomScale = 1
                 scrollView.setZoomScale(minScale, animated: false)
 
+                isInitialScaled = true
             }
-            isInitialScaled = true
         }
     }
     
@@ -146,6 +156,7 @@ extension CKImageMapView :  UIScrollViewDelegate {
     public func viewForZooming(in scrollView: UIScrollView) -> UIView? {
         return ivMap
     }
+
     
     public func scrollViewDidZoom(_ scrollView: UIScrollView) {
         let subView = scrollView.subviews.first

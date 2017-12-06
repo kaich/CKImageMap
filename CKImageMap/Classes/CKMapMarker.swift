@@ -10,14 +10,16 @@ import Kingfisher
 
 public class CKMapMarker: NSObject {
     public var point: CGPoint = CGPoint(x: 0, y: 0)
+    public var size: CGSize = CGSize(width: 30, height: 40)
     public var imageURL: URL?
     public var title = ""
     public var message = ""
     public var isMarked = false
     public var actionTitles = [String]()
     
-    public init(point: CGPoint, imageURL: URL? = nil, title: String = "", message: String = "", isMarked: Bool = false, actionTitles: [String] = []) {
+    public init(point: CGPoint, size: CGSize = CGSize(width: 30, height: 40), imageURL: URL? = nil, title: String = "", message: String = "", isMarked: Bool = false, actionTitles: [String] = []) {
         self.point = point
+        self.size = size
         self.imageURL = imageURL
         self.title = title
         self.message = message
@@ -41,7 +43,7 @@ class CKMapAnotationView: UIView {
     private let btnAnnotation = UIButton(type: UIButtonType.custom)
     
     init(marker: CKMapMarker) {
-        super.init(frame: CGRect(x: 0, y: 0, width: 30, height: 40))
+        super.init(frame: CGRect(origin: CGPoint.zero, size: marker.size))
         self.marker = marker
         
         let image = UIImage()

@@ -9,8 +9,8 @@ import UIKit
 import AMPopTip
 import Kingfisher
 
-open class CKImageMapView: UIView {
-    open var imageURL: URL? {
+public class CKImageMapView: UIView {
+    public var imageURL: URL? {
         didSet {
             ivMap.kf.setImage(with: imageURL, placeholder: nil, options: nil, progressBlock: nil) { (image, error, type, url) in
                 self.mapImage = image
@@ -21,7 +21,7 @@ open class CKImageMapView: UIView {
             
         }
     }
-    open var markers: [CKMapMarker] = [] {
+    public var markers: [CKMapMarker] = [] {
         didSet {
             self.reloadData()
         }
@@ -60,7 +60,7 @@ open class CKImageMapView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    open override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
         scrollView.frame = CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height)
         initialZoomScale()

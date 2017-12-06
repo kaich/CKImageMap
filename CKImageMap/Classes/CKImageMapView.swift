@@ -9,8 +9,8 @@ import UIKit
 import AMPopTip
 import Kingfisher
 
-public class CKImageMapView: UIView {
-    public var imageURL: URL? {
+open class CKImageMapView: UIView {
+    open var imageURL: URL? {
         didSet {
             ivMap.kf.setImage(with: imageURL, placeholder: nil, options: nil, progressBlock: nil) { (image, error, type, url) in
                 self.mapImage = image
@@ -21,7 +21,7 @@ public class CKImageMapView: UIView {
             
         }
     }
-    public var markers: [CKMapMarker] = [] {
+    open var markers: [CKMapMarker] = [] {
         didSet {
             self.reloadData()
         }
@@ -44,7 +44,6 @@ public class CKImageMapView: UIView {
 
 
         ivMap.isUserInteractionEnabled = true
-//        ivMap.frame = CGRect(x: 0, y: 0, width: frame.width, height: frame.height)
         scrollView.addSubview(ivMap)
         
         popTip.bubbleColor = UIColor.white
@@ -61,7 +60,7 @@ public class CKImageMapView: UIView {
         fatalError("init(coder:) has not been implemented")
     }
     
-    public override func layoutSubviews() {
+    open override func layoutSubviews() {
         super.layoutSubviews()
         scrollView.frame = CGRect(x: 0, y: 0, width: frame.size.width, height: frame.size.height)
         initialZoomScale()

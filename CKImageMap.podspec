@@ -41,4 +41,5 @@ TODO: Add long description of the pod here.
   # s.dependency 'AFNetworking', '~> 2.3'
   s.dependency 'AMPopTip'
   s.dependency 'Kingfisher'
+  s.dependency 'ObjectMapper', '~> 2.2'
 end

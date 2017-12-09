@@ -104,7 +104,7 @@ public class CKImageMapView: UIView {
     
     func layoutAnnotations() {
         annotationViews = []
-        for emView in subviews {
+        for emView in scrollView.subviews {
             if let emView = emView as? CKMapAnotationView {
                 emView.removeFromSuperview()
             }

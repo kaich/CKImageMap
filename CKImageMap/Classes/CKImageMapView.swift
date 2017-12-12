@@ -41,7 +41,7 @@ public class CKImageMapView: UIView {
     //When User Click AnnotationView Call This
     public var clickAnnotationBlock :((CKMapMarker?) -> ())?
 
-    private var markManager: CKMapMarkerManager!
+    private var markManager: CKMapMarkerManager?
     private let scrollView = UIScrollView()
     private let ivMap = UIImageView()
     private var mapImage: UIImage?
@@ -91,23 +91,30 @@ public class CKImageMapView: UIView {
     }
     
     public func mark(_ marker: CKMapMarker) -> Bool {
-        let isOK = markManager.mark(marker: marker)
-        if isOK {
-            reloadData()
+        if let isOK = markManager?.mark(marker: marker) {
+            if isOK {
+                reloadData()
+            }
+            return isOK
         }
-        return isOK
+        return false
     }
     
     public func unmark(_ marker: CKMapMarker) -> Bool {
-        let isOK = markManager.unmark(marker: marker)
-        if isOK {
-            reloadData()
+        if let isOK = markManager?.unmark(marker: marker) {
+            if isOK {
+                reloadData()
+            }
+            return isOK
         }
-        return isOK
+        return false
     }
     
     public func checkMarked(_ marker: CKMapMarker) -> Bool {
-        return markManager.checkMarked(marker: marker)
+        if let isMarked = markManager?.checkMarked(marker: marker) {
+            return isMarked
+        }
+        return false
     }
     
     func initialZoomScale() {
@@ -144,7 +151,9 @@ public class CKImageMapView: UIView {
         }
         for marker in markers {
             let annotationView = CKMapAnotationView(marker: marker)
-            annotationView.setupWith(isMarked: markManager.checkMarked(marker: marker))
+            if let isMarked = markManager?.checkMarked(marker: marker)  {
+                annotationView.setupWith(isMarked: isMarked)
+            }
             annotationView.clickBlock = { annotationView in
                 if self.showDefaultPopView {
                     self.showPopView(annotationView: annotationView)

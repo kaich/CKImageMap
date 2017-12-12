@@ -87,7 +87,9 @@ public class CKImageMapView: UIView {
     }
     
     public func reloadData() {
-        layoutAnnotations()
+        DispatchQueue.main.async {
+            self.layoutAnnotations()
+        }
     }
     
     public func mark(_ marker: CKMapMarker) -> Bool {

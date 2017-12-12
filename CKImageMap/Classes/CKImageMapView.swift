@@ -155,7 +155,12 @@ public class CKImageMapView: UIView {
             }
             let finalPoint = ivMap.convert(marker.point, to: scrollView)
             annotationView.finalCenterPoint = finalPoint
-            scrollView.addSubview(annotationView)
+            if popTip.superview == scrollView {
+                scrollView.insertSubview(annotationView, belowSubview: popTip)
+            }
+            else {
+                scrollView.addSubview(annotationView)
+            }
             annotationViews.append(annotationView)
             
         }

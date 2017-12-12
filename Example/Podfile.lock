@@ -1,11 +1,15 @@
 PODS:
   - AMPopTip (3.0.3)
-  - CKImageMap (0.1.4):
+  - CKImageMap (0.1.6):
     - AMPopTip
     - Kingfisher
     - ObjectMapper (~> 2.2)
+    - SQLite.swift (~> 0.11.4)
   - Kingfisher (4.5.0)
   - ObjectMapper (2.2.9)
+  - SQLite.swift (0.11.4):
+    - SQLite.swift/standard (= 0.11.4)
+  - SQLite.swift/standard (0.11.4)
 
 DEPENDENCIES:
   - AMPopTip (from `https://github.com/kaich/AMPopTip.git`)
@@ -24,9 +28,10 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AMPopTip: 0dd5044323464e267dddb3c91d25468f7a91f3f7
-  CKImageMap: 0dc69ae016993ccf6b5d2cb6fe0ff6d0e38fa619
+  CKImageMap: 381fc4562d176b72df108942f52399ff28e46959
   Kingfisher: 26ae0473102b77b575da51960c932431e3745407
   ObjectMapper: 63cfe41bc6f8e7c8f44344c49901b8ae7de14c52
+  SQLite.swift: 3e3bee21da701b5b9f87c4a672cb54f233505692
 
 PODFILE CHECKSUM: bdcc1383b58b68a2e80fff9dd935ff13add1e5a9
 

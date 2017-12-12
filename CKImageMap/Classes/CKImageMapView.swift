@@ -22,6 +22,14 @@ public class CKImageMapView: UIView {
             
         }
     }
+    //Map Name
+    public var mapName: String? {
+        didSet {
+            if let mapName = mapName {
+                self.markManager = CKMapMarkerManager(name: mapName)
+            }
+        }
+    }
     //All Map Annotation Markers
     public var markers: [CKMapMarker] = [] {
         didSet {
@@ -33,6 +41,7 @@ public class CKImageMapView: UIView {
     //When User Click AnnotationView Call This
     public var clickAnnotationBlock :((CKMapMarker?) -> ())?
 
+    private var markManager: CKMapMarkerManager!
     private let scrollView = UIScrollView()
     private let ivMap = UIImageView()
     private var mapImage: UIImage?
@@ -53,7 +62,11 @@ public class CKImageMapView: UIView {
         scrollView.addSubview(ivMap)
         
         popTip.bubbleColor = UIColor.white
+        popTip.borderColor = UIColor.hexrgb("#f0f0f0")
+        popTip.borderWidth = 1
         popTip.shouldDismissOnTap = true
+        popTip.actionAnimation = .bounce(10)
+        
         
         let tapGes = UITapGestureRecognizer(target: self, action: #selector(userDoubleTappedScrollview(recognizer:)))
         tapGes.numberOfTapsRequired = 2
@@ -75,6 +88,26 @@ public class CKImageMapView: UIView {
     
     public func reloadData() {
         layoutAnnotations()
+    }
+    
+    public func mark(_ marker: CKMapMarker) -> Bool {
+        let isOK = markManager.mark(marker: marker)
+        if isOK {
+            reloadData()
+        }
+        return isOK
+    }
+    
+    public func unmark(_ marker: CKMapMarker) -> Bool {
+        let isOK = markManager.unmark(marker: marker)
+        if isOK {
+            reloadData()
+        }
+        return isOK
+    }
+    
+    public func checkMarked(_ marker: CKMapMarker) -> Bool {
+        return markManager.checkMarked(marker: marker)
     }
     
     func initialZoomScale() {
@@ -111,6 +144,7 @@ public class CKImageMapView: UIView {
         }
         for marker in markers {
             let annotationView = CKMapAnotationView(marker: marker)
+            annotationView.setupWith(isMarked: markManager.checkMarked(marker: marker))
             annotationView.clickBlock = { annotationView in
                 if self.showDefaultPopView {
                     self.showPopView(annotationView: annotationView)

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'CKImageMap'
-  s.version          = '0.1.6'
+  s.version          = '0.1.7'
   s.summary          = 'A short description of CKImageMap.'
 
 # This description is used to generate tags and improve search results.
@@ -42,4 +42,5 @@ TODO: Add long description of the pod here.
   s.dependency 'AMPopTip'
   s.dependency 'Kingfisher'
   s.dependency 'ObjectMapper', '~> 2.2'
+  s.dependency 'SQLite.swift', '~> 0.11.4'
 end

@@ -9,6 +9,9 @@ import UIKit
 import AMPopTip
 import Kingfisher
 
+let PAD_VERTICAL: CGFloat = 0
+let PAD_HORIZONTAL: CGFloat = 0
+
 public class CKImageMapView: UIView {
     //Map Image View
     public var imageURL: URL? {
@@ -62,6 +65,7 @@ public class CKImageMapView: UIView {
 
 
         ivMap.isUserInteractionEnabled = true
+        ivMap.contentMode = .center
         scrollView.addSubview(ivMap)
         
         popTip.bubbleColor = UIColor.white
@@ -142,7 +146,8 @@ public class CKImageMapView: UIView {
     
     func mapSize() -> CGSize {
         if let mapImage = self.mapImage {
-            return mapImage.size
+            let finalSize = CGSize(width: mapImage.size.width + PAD_HORIZONTAL * 2, height: mapImage.size.height + PAD_VERTICAL * 2)
+            return finalSize
         }
         return CGSize(width: 0, height: 0)
     }
@@ -208,11 +213,6 @@ public class CKImageMapView: UIView {
         
         return zoomRect;
     
-    }
-    
-    func rectToImageWith(scale: CGFloat, from: CGRect) -> CGRect {
-        let finalFrame = CGRect(x: from.origin.x * scale, y: from.origin.y * scale, width: from.width, height: from.height)
-        return finalFrame
     }
 
     

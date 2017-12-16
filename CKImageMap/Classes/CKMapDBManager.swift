@@ -88,9 +88,18 @@ class CKMapDBManager: NSObject {
             print("数据库不存在")
             return false
         }
-        let keys = dict.keys
         
-        self.updateColumns(name, keys: Array(dict.keys))
+        var finalDic = dict
+        
+        //存储创建时间
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd hh:mm:ss"
+        finalDic["createTime"] = dateFormatter.string(from: Date())
+        
+        
+        let keys = finalDic.keys
+        
+        self.updateColumns(name, keys: Array(finalDic.keys))
         var values = [String]()
         let SQL = NSMutableString()
         SQL.append("INSERT INTO \(name) (")
@@ -102,7 +111,7 @@ class CKMapDBManager: NSObject {
             }else {
                 SQL.append(",")
             }
-            values.append(dict[key]!)
+            values.append(finalDic[key]!)
             i+=1
         }
         

@@ -45,6 +45,7 @@ class CKMapMarkerManager: NSObject {
         
         finalDic["point"] = pointStr
         finalDic["title"] = title
+        finalDic["message"] = marker.message
         finalDic["category"] = marker.category
         
         return finalDic

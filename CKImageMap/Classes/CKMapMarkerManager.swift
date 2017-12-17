@@ -9,9 +9,9 @@ import UIKit
 
 class CKMapMarkerManager: NSObject {
     private var dbManager = CKMapDBManager.sharedInstance
-    private var mapName: String!
+    private var mapName: String! 
     
-    init(name: String) {
+    init(name: String = "marker") {
         super.init()
         
         mapName = name
@@ -45,6 +45,7 @@ class CKMapMarkerManager: NSObject {
         
         finalDic["point"] = pointStr
         finalDic["title"] = title
+        finalDic["category"] = marker.category
         
         return finalDic
     }

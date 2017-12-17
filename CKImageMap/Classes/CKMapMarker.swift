@@ -92,9 +92,10 @@ public class CKMapMarker: Mappable {
     public var markedImageURL: URL?
     public var title = ""
     public var message = ""
+    public var category = ""
     public var actionTitles = [String]()
     
-    public init(point: CGPoint, size: CGSize = CGSize(width: 30, height: 40), imageURL: URL? = nil,markedImageURL: URL? = nil, title: String = "", message: String = "", actionTitles: [String] = []) {
+    public init(point: CGPoint, size: CGSize = CGSize(width: 30, height: 40), imageURL: URL? = nil,markedImageURL: URL? = nil, title: String = "", message: String = "", category: String = "", actionTitles: [String] = []) {
         self.point = point
         self.size = size
         self.imageURL = imageURL
@@ -117,6 +118,7 @@ public class CKMapMarker: Mappable {
         markedImageURL      <- ( map["markedImageURL"], URLTransform() )
         title       <- map["title"]
         message  <- map["message"]
+        category  <- map["category"]
         actionTitles     <- map["actionTitles"]
     }
 }

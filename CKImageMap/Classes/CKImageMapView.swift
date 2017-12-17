@@ -59,6 +59,7 @@ public class CKImageMapView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
+        self.markManager = CKMapMarkerManager()
         
         scrollView.delegate = self
         addSubview(scrollView)
